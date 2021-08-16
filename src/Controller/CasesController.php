@@ -19,12 +19,12 @@ class CasesController extends AbstractController
      public function index(ChartBuilderInterface $chartBuilder): Response {
 
         $country = 'South Africa';
-        $coronaCases = self::cases_by_country($country);
+        $coronaVirusCases = self::cases_by_country($country);
         $labelsDataArray = [];
         $coronaDataArray = [];
         $maxCases = 3000000;
 
-        foreach($coronaCases as $key => $value) {
+        foreach($coronaVirusCases as $key => $value) {
 
             $time = strtotime($value['Date']);
             $labelsDataArray[] = date('Y-m-d', $time);

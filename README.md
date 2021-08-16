@@ -12,4 +12,4 @@ This application displays a line chat with total number of coronavirus cases and
 `yarn install --force`
 `yarn encore dev`
 
-4. Lastly run `php bin/console server:run` to start application, visit [http://127.0.0.1:8000/](http://127.0.0.1:8000/) to view the application
+4. Lastly run `php bin/console server:run` to start application, visit [http://127.0.0.1:8000/](http://127.0.0.1:8000/) to explore the line chart
