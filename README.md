@@ -4,7 +4,7 @@ This application displays a line chat with total number of coronavirus cases and
 
 ## Installation
 
-- Clone this repo to your dev enviroment(for a symfony application)
+- Clone this repo to your dev enviroment (for a symfony application)
 
 - Navigate to the root folder of this repo and run `composer install` to install application dependencies
 
